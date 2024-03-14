@@ -1,0 +1,207 @@
+[
+  {
+    "Href": "/lps",
+    "Title": "LIVE PRO STUDIO",
+    "Image": "lps.png",
+    "Details": "Player Audiovisual",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": [
+      "INTERFACE",
+      "PROGRAMAÇÃO DAS MÍDIAS",
+      "EDITOR/PREVIEW",
+      "CHAMADAS AO VIVO",
+      "CONTROLE DAS CÂMERAS",
+      "BOTOEIRAS COM CANAIS INDEPENDENTES"
+    ]
+  },
+  {
+    "Href": "/mixair",
+    "Title": "MIXAIR",
+    "Image": "unamed.png",
+    "Details": "Integrador vMix",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": []
+  },
+  {
+    "Href": "/livetv",
+    "Title": "LIVE TV",
+    "Image": "tvl.png",
+    "Details": "Playout de TV",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": []
+  },
+  {
+    "Href": "/livepro",
+    "Title": "LIVE PRO",
+    "Image": "lpr.png",
+    "Details": "Player de áudio",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": []
+  },
+  {
+    "Href": "/live5",
+    "Title": "LIVE 5",
+    "Image": "l5.png",
+    "Details": "Player de áudio",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": []
+  },
+  {
+    "Href": "/fastplay",
+    "Title": "FASTPLAY ECAD DUO",
+    "Image": "fts.png",
+    "Details": "Controle de Metas e Engajamento Comercial",
+    "Acronym": "",
+    "Category": "Estudio",
+    "Resources": []
+  },
+  {
+    "Href": "/musical",
+    "Title": "MUSICAL",
+    "Image": "msc.png",
+    "Details": "Programação Musical",
+    "Acronym": "",
+    "Category": "Artistico",
+    "Resources": []
+  },
+  {
+    "Href": "/sweeper",
+    "Title": "SWEEPER",
+    "Image": "SWE.png",
+    "Details": "Cadastro de vinhetas",
+    "Acronym": "",
+    "Category": "Artistico",
+    "Resources": []
+  },
+  {
+    "Href": "/listener",
+    "Title": "LISTENER",
+    "Image": "lis.png",
+    "Details": "Atendimento de Ouvintes",
+    "Acronym": "",
+    "Category": "Artistico",
+    "Resources": []
+  },
+  {
+    "Href": "/traffic",
+    "Title": "TRAFFIC",
+    "Image": "trf.png",
+    "Details": "Roteiro Comercial e Gestão Financeira",
+    "Acronym": "",
+    "Category": "Administrativo",
+    "Resources": []
+  },
+  {
+    "Href": "/crm",
+    "Title": "CRM DE VENDAS - DESKTOP",
+    "Image": "crm.png",
+    "Details": "Controle de Metas e Engajamento Comercial",
+    "Acronym": "",
+    "Category": "Administrativo",
+    "Resources": []
+  },
+  {
+    "Href": "/crmweb",
+    "Title": "CRM DE VENDAS - WEB",
+    "Image": "crmweb.png",
+    "Details": "Controle de Metas e Engajamento Comercial",
+    "Acronym": "",
+    "Category": "Administrativo",
+    "Resources": []
+  },
+  {
+    "Href": "/stock",
+    "Title": "STOCK",
+    "Image": "Stock.jpg",
+    "Details": "Controle de Estoque de Produtos",
+    "Acronym": "",
+    "Category": "Administrativo",
+    "Resources": []
+  },
+  {
+    "Href": "/news",
+    "Title": "NEWS",
+    "Image": "News.jpg",
+    "Details": "Jornalismo",
+    "Acronym": "",
+    "Category": "Jornalismo",
+    "Resources": []
+  },
+  {
+    "Href": "/viewer",
+    "Title": "VIEWER",
+    "Image": "Viewer.jpg",
+    "Details": "Consulta do Estúdio",
+    "Acronym": "",
+    "Category": "Jornalismo",
+    "Resources": []
+  },
+  {
+    "Href": "/weather",
+    "Title": "WEATHER",
+    "Image": "Weather.jpg",
+    "Details": "Automação da Temperatura no AR",
+    "Acronym": "",
+    "Category": "Jornalismo",
+    "Resources": []
+  },
+  {
+    "Href": "/redispatcher",
+    "Title": "RDS REDISPATCHER",
+    "Image": "RDC.jpg",
+    "Details": "Controlador de RDS",
+    "Acronym": "",
+    "Category": "Publicações",
+    "Resources": []
+  },
+  {
+    "Href": "/schedule",
+    "Title": "RDS SCHEDULE",
+    "Image": "RDS.jpg",
+    "Details": "Roteiro de Conteúdo para RDS",
+    "Acronym": "",
+    "Category": "Publicações",
+    "Resources": []
+  },
+  {
+    "Href": "/ftp",
+    "Title": "FTP REDISPATCHER",
+    "Image": "FTP_R.jpg",
+    "Details": "Pulblicação de Informações para Website\nTUNE IN, SAM e SHOUTCAST",
+    "Acronym": "",
+    "Category": "Publicações",
+    "Resources": []
+  },
+  {
+    "Href": "/livenet",
+    "Title": "LIVE NET",
+    "Image": "Live_Net.jpg",
+    "Details": "Rede de Rádio via Internet",
+    "Acronym": "",
+    "Category": "Encoders e Streamings",
+    "Resources": []
+  },
+  {
+    "Href": "/audiologger",
+    "Title": "AUDIO LOGGER",
+    "Image": "Audio_Logger.jpg",
+    "Details": "Gravador de Censura - Áudio",
+    "Acronym": "",
+    "Category": "Encoders e Streamings",
+    "Resources": []
+  },
+  {
+    "Href": "/videologger",
+    "Title": "VIDEO LOGGER",
+    "Image": "Video_log.jpg",
+    "Details": "Gravador de Censura - Vídeo",
+    "Acronym": "",
+    "Category": "Encoders e Streamings",
+    "Resources": []
+  }
+]

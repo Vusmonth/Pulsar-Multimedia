@@ -1,0 +1,44 @@
+﻿@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    background-color: #000;
+}
+
+.slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+    .slide-track:hover {
+        animation-play-state: paused;
+    }
+
+.slide {
+    width: 250px;
+}
+
+    .slide > img {
+        width: 220px;
+        aspect-ratio: 4 / 2.3;
+    }
+.slide:hover {
+    cursor: pointer;
+}

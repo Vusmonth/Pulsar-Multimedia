@@ -1,0 +1,34 @@
+﻿@using Pulsar_Site.Models
+<div class="slider" style="background-color: @BackgroundColor">
+	<div class="slide-track" style="animation-direction: @(Reverse ? "reverse" : "normal")">
+		@{
+			foreach (var item in Items)
+			{
+				<a class="slide" title=@item.Title href=@item.Href>
+					<img src=@item.Image />
+				</a>
+			}
+		}
+
+		@{
+			foreach (var item in Items)
+			{
+				<a class="slide" title=@item.Title href=@item.Href>
+					<img src=@item.Image />
+				</a>
+			}
+		}
+		
+	</div>
+</div>
+
+@code {
+	[Parameter]
+	public Product[] Items { get; set; } = [];
+
+	[Parameter]
+	public string BackgroundColor { get; set; } = "#fff";
+
+	[Parameter]
+	public bool Reverse { get; set; } = false;
+}

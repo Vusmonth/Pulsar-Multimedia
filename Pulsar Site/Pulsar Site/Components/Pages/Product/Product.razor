@@ -1,0 +1,58 @@
+﻿@page "/produtos/{ProductName}"
+
+@using Pulsar_Site.Components.Common
+
+<Header />
+<main>
+    <iframe src="https://www.youtube.com/embed/34px4CqwlwQ?si=PYxmw5_qIGiQBylw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            id="youtubePlayer" />
+    <span>
+        <h3 id="title">@ProductData.Title</h3>
+        <h4>
+            - Principais Recursos
+        </h4>
+    </span>
+
+    <section class="details-section">
+        @if (ProductData.Resources == null || ProductData.Resources.Length == 0)
+        {
+            <p> Em desenvolvimento...</p>
+        }
+        else
+        {
+            <ul>
+                @foreach (var item in ProductData.Resources)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        }
+    </section>
+</main>
+
+@using Data;
+@inject NavigationManager NavigationManager
+
+@code {
+    [Parameter]
+    public string ProductName { get; set; } = "";
+
+    public Models.Product ProductData { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        try
+        {
+            ProductData = ProductsService.GetByAcronym(ProductName);
+        }
+        catch
+        {
+            NavigationManager.NavigateTo("/produtos");
+        }
+    }
+}

@@ -1,0 +1,19 @@
+﻿.main-content {
+    margin-top: 10vh;
+    padding: 0px 10vw;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+
+.products-category {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.products-category > ul {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}

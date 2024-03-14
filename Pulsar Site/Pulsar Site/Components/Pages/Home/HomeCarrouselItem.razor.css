@@ -1,0 +1,14 @@
+﻿li {
+    object-fit: contain;
+    aspect-ratio: 3/1;
+    position: relative;
+    transform: translateX(0px);
+}
+
+li > a > img {
+    width: 19vw;
+}
+
+li:hover {
+    background-color: red;
+}

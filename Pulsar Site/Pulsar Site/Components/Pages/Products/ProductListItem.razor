@@ -1,0 +1,38 @@
+﻿@using Pulsar_Site.Models
+<a href=@Props.Href>
+    <img src=@Props.Image width="250" />
+    <span>
+        <h5>@Props.Title</h5>
+        <p>@Props.Details</p>
+    </span>
+</a>
+
+<style>
+    a {
+        all: unset;
+    }
+
+        a > img {
+            box-shadow: 0px 5px 10px 10px rgba(0,0,0,0.1);
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
+
+        a > span > h5 {
+            margin-top: 8px;
+        }
+
+        a > span > p {
+            font-size: 12px;
+            color: #1d1d1f;
+            width: 80%;
+        }
+</style>
+
+
+@code {
+    [Parameter]
+    public Product Props { get; set; }
+}

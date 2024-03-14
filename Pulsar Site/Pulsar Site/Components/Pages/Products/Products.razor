@@ -1,0 +1,87 @@
+﻿@page "/produtos"
+@using Pulsar_Site.Components.Common
+@using Pulsar_Site.Components.Pages.Products
+@using Pulsar_Site.Models
+
+<PageTitle>Produtos</PageTitle>
+
+<Header />
+<main class="main-content">
+    <div class="products-category" id="first">
+        <h2>
+            Para seu Estúdio
+        </h2>
+        <ul>
+            @{
+                foreach(var product in StudioCategory){<ProductListItem Props=@product />}
+            }
+           
+        </ul>
+    </div>
+
+    <div class="products-category">
+        <h2>
+            Para seu Artístico
+        </h2>
+        <ul>
+             @{
+                foreach(var product in ArtisticCategory){<ProductListItem Props=@product />}
+            }
+        </ul>
+    </div> 
+    
+    <div class="products-category">
+        <h2>
+            Para seu Administrativo
+        </h2>
+        <ul>
+            @{
+                foreach(var product in AdminCategory){<ProductListItem Props=@product />}
+            }
+        </ul>
+    </div>
+
+    <div class="products-category">
+        <h2>
+            Para seu Jornalismo
+        </h2>
+        <ul>
+            @{
+                foreach(var product in NewsCategory){<ProductListItem Props=@product />}
+            }
+        </ul>
+    </div>
+
+    <div class="products-category">
+        <h2>
+            Publicações
+        </h2>
+        <ul>
+             @{
+                foreach(var product in PublishCategory){<ProductListItem Props=@product />}
+            }
+        </ul>
+    </div
+
+    <div class="products-category">
+        <h2>
+            Encoders e Streamings
+        </h2>
+        <ul>
+            @{
+                foreach(var product in StreamingCategory){<ProductListItem Props=@product />}
+            }
+        </ul>
+    </div>
+</main>
+
+<Footer/>
+@using Data;
+@code {
+    List<Product> StudioCategory = ProductsService.ListByCategory("Estudio");
+    List<Product> ArtisticCategory = ProductsService.ListByCategory("Artistico");
+    List<Product> AdminCategory = ProductsService.ListByCategory("Administrativo");
+    List<Product> NewsCategory = ProductsService.ListByCategory("Jornalismo");
+    List<Product> PublishCategory = ProductsService.ListByCategory("Publicações");
+    List<Product> StreamingCategory = ProductsService.ListByCategory("Encoders e Streamings");
+}

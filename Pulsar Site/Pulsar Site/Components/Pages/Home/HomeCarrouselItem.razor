@@ -1,0 +1,16 @@
+﻿@using Pulsar_Site.Models
+<li class="animated-element" style="transition: 3s; transform: translateX(calc(100px * @Index))">
+    <a href=@Props.Href title=@Props.Title>
+        <img src=@Props.Image />
+    </a>
+    <p>@Index.ToString()</p>
+</li>
+
+@code {
+    [Parameter]
+    public Product Props { get; set; }
+    [Parameter]
+    public int Index { get; set; } = 0;
+
+    private string[] colors = { "red", "blue", "green", "yellow" };
+}

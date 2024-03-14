@@ -1,0 +1,57 @@
+﻿
+header {
+    background-color: #141414;
+    color: #fff;
+    padding: 8px 0px;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw
+}
+
+    header a {
+        padding-left: 2%;
+        margin: 0;
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    header a:hover {
+        cursor: pointer;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    gap: 50px
+}
+
+    nav a {
+        color: #b0b0b0;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.2s ease-in-out;
+    }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+.login_btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E41950;
+    padding: 8px 16px;
+    border-radius: 8px;
+    gap: 8px;
+    color: white;
+}
+    .login_btn:hover {
+        background-color: #99113B;
+        cursor: pointer;
+    }

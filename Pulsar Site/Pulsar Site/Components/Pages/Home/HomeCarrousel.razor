@@ -1,0 +1,24 @@
+﻿@using Pulsar_Site.Components.Common
+@using Pulsar_Site.Models
+@using static Pulsar_Site.Components.Common.Carousel
+@using static Pulsar_Site.Components.Pages.Home.HomeCarrouselItem
+<main>
+    <Carousel Items=@UpProductList BackgroundColor="#000" />
+    <Carousel Items=@DownProductList BackgroundColor="#000" Reverse />
+     <a href="/produtos">
+         Ver todos os produtos
+     </a>
+ </main>
+
+@using Data;
+ @code {
+    private Product[] UpProductList = Data.ProductsService.AllProducts
+    .Take(7)
+    .ToArray();
+
+    private Product[] DownProductList = Data.ProductsService.AllProducts
+    .Skip(7)
+    .Take(7)
+    .ToArray();
+
+}
