@@ -4,7 +4,7 @@
 
 <Header />
 <main>
-    <iframe src="https://www.youtube.com/embed/34px4CqwlwQ?si=PYxmw5_qIGiQBylw"
+    <iframe src=@ProductData.Youtube_URL
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -18,7 +18,7 @@
     </span>
 
     <section class="details-section">
-        @if (ProductData.Resources == null || ProductData.Resources.Length == 0)
+        @if (ProductData.Resources.Length == 0)
         {
             <p> Em desenvolvimento...</p>
         }
@@ -27,7 +27,18 @@
             <ul>
                 @foreach (var item in ProductData.Resources)
                 {
-                    <li>@item</li>
+                    <li class="details-resource">
+                        <img src="/Products/@(item.Image).jpg" />
+                        <div>
+                            <h2>
+                                @item.Title
+                            </h2>
+                            <p>
+                                @item.Description
+                            </p>
+                        </div>
+
+                    </li>
                 }
             </ul>
         }

@@ -4,15 +4,11 @@
     "Title": "LIVE PRO STUDIO",
     "Image": "lps.png",
     "Details": "Player Audiovisual",
+    "Description": "",
     "Acronym": "",
     "Category": "Estudio",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": [
-      "INTERFACE",
-      "PROGRAMAÇÃO DAS MÍDIAS",
-      "EDITOR/PREVIEW",
-      "CHAMADAS AO VIVO",
-      "CONTROLE DAS CÂMERAS",
-      "BOTOEIRAS COM CANAIS INDEPENDENTES"
     ]
   },
   {
@@ -20,8 +16,10 @@
     "Title": "MIXAIR",
     "Image": "unamed.png",
     "Details": "Integrador vMix",
+    "Description": "",
     "Acronym": "",
     "Category": "Estudio",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -29,8 +27,10 @@
     "Title": "LIVE TV",
     "Image": "tvl.png",
     "Details": "Playout de TV",
+    "Description": "",
     "Acronym": "",
     "Category": "Estudio",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -38,17 +38,42 @@
     "Title": "LIVE PRO",
     "Image": "lpr.png",
     "Details": "Player de áudio",
+    "Description": "O Player Live Pro revolucionou a automação de emissoras de rádio ao resgatar o espírito participativo do operador em controlar as mixagens! É o líder de mercado de emissoras de grande porte, de rádios que acreditam que o profissional faz a diferença ao assumir o controle e expor seu talento, e não ser apenas um espectador de mixagens automáticas. Possui ambiente amplo de trabalho em 2 monitores deixando sempre a disposição do operador os recursos mais importantes como: breaks, programação musical e botoeiras de vinhetas. Atende até 8 canais independentes de saída de áudio – utilizando placas multicanais como Digigram, Presonus ou mesmo mais de uma placa de áudio genérica. O Player Live Pro também é compatível com consoles via IP/USB como Wheatstone, Axia, Studer – o que torna desnecessário a utilização de placas de áudio no computador.",
     "Acronym": "",
     "Category": "Estudio",
-    "Resources": []
+    "Youtube_URL": "https://www.youtube.com/watch?v=4FVC2Eqr86E",
+    "Resources": [
+      {
+        "Description": "O Player Live Pro é integrado ao nosso módulo Traffic (Roteiro Comercial e Gestão Financeira). Todas as modificações feitas no roteiro comercial são refletidas instantaneamente no Player Live Pro. Você pode editar os breaks colocando vinhetas ou alterando posições, desde que tenha essa permissão.",
+        "Image": "3-pistas_cinza",
+        "Title": "UM SHOW DE MIXAGEM"
+      },
+      {
+        "Description": "Com o intuito de acrescentar qualidade, dinamismo e criatividade na performance do operador, o Player Live Pro disponibiliza múltiplas pistas que exercem papel fundamental na mixagem das mídias. É através delas que o operador consegue montar a plástica da emissora com muito mais qualidade que um software de mixagem sequencial e, portanto, conquistar mais audiência!",
+        "Image": "Breaks_branco",
+        "Title": "BREAKS COMERCIAIS NO PONTO."
+      },
+      {
+        "Description": "A janela de leitura exibida em Richtext se abre automaticamente no horário em que foi programada, mas também pode ser acessada antecipadamente se desejar. Vem acompanhada de trilha, que é editável assim como a fonte e cores dos textos. Ao final da leitura, o Player Live Pro indica o tempo total da execução para que a tábua de irradiação seja criada e acessada em nosso módulo comercial – Traffic.",
+        "Image": "Testemunhais_cinza",
+        "Title": "TESTEMUNHAIS POP-UP"
+      },
+      {
+        "Description": "Com a disponibilização de diversos filtros, como – Nome da Música, Intérprete, Tempo de Duração, Categorias etc – você pode realizar a busca das músicas e inserí-las na programação, diretamente no ar!",
+        "Image": "Busca-Musicas_branco",
+        "Title": "ENCONTRO DE MÚSICAS E SEUS INTÉRPRETES"
+      }
+    ]
   },
   {
     "Href": "/live5",
     "Title": "LIVE 5",
     "Image": "l5.png",
     "Details": "Player de áudio",
+    "Description": "",
     "Acronym": "",
     "Category": "Estudio",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -56,8 +81,10 @@
     "Title": "FASTPLAY ECAD DUO",
     "Image": "fts.png",
     "Details": "Controle de Metas e Engajamento Comercial",
+    "Description": "",
     "Acronym": "",
     "Category": "Estudio",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -65,8 +92,10 @@
     "Title": "MUSICAL",
     "Image": "msc.png",
     "Details": "Programação Musical",
+    "Description": "",
     "Acronym": "",
     "Category": "Artistico",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -74,8 +103,10 @@
     "Title": "SWEEPER",
     "Image": "SWE.png",
     "Details": "Cadastro de vinhetas",
+    "Description": "",
     "Acronym": "",
     "Category": "Artistico",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -83,8 +114,10 @@
     "Title": "LISTENER",
     "Image": "lis.png",
     "Details": "Atendimento de Ouvintes",
+    "Description": "",
     "Acronym": "",
     "Category": "Artistico",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -92,8 +125,10 @@
     "Title": "TRAFFIC",
     "Image": "trf.png",
     "Details": "Roteiro Comercial e Gestão Financeira",
+    "Description": "",
     "Acronym": "",
     "Category": "Administrativo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -101,8 +136,10 @@
     "Title": "CRM DE VENDAS - DESKTOP",
     "Image": "crm.png",
     "Details": "Controle de Metas e Engajamento Comercial",
+    "Description": "",
     "Acronym": "",
     "Category": "Administrativo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -110,8 +147,10 @@
     "Title": "CRM DE VENDAS - WEB",
     "Image": "crmweb.png",
     "Details": "Controle de Metas e Engajamento Comercial",
+    "Description": "",
     "Acronym": "",
     "Category": "Administrativo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -119,8 +158,10 @@
     "Title": "STOCK",
     "Image": "Stock.jpg",
     "Details": "Controle de Estoque de Produtos",
+    "Description": "",
     "Acronym": "",
     "Category": "Administrativo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -128,8 +169,10 @@
     "Title": "NEWS",
     "Image": "News.jpg",
     "Details": "Jornalismo",
+    "Description": "",
     "Acronym": "",
     "Category": "Jornalismo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -137,8 +180,10 @@
     "Title": "VIEWER",
     "Image": "Viewer.jpg",
     "Details": "Consulta do Estúdio",
+    "Description": "",
     "Acronym": "",
     "Category": "Jornalismo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -146,8 +191,10 @@
     "Title": "WEATHER",
     "Image": "Weather.jpg",
     "Details": "Automação da Temperatura no AR",
+    "Description": "",
     "Acronym": "",
     "Category": "Jornalismo",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -155,8 +202,10 @@
     "Title": "RDS REDISPATCHER",
     "Image": "RDC.jpg",
     "Details": "Controlador de RDS",
+    "Description": "",
     "Acronym": "",
     "Category": "Publicações",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -164,8 +213,10 @@
     "Title": "RDS SCHEDULE",
     "Image": "RDS.jpg",
     "Details": "Roteiro de Conteúdo para RDS",
+    "Description": "",
     "Acronym": "",
     "Category": "Publicações",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -173,8 +224,10 @@
     "Title": "FTP REDISPATCHER",
     "Image": "FTP_R.jpg",
     "Details": "Pulblicação de Informações para Website\nTUNE IN, SAM e SHOUTCAST",
+    "Description": "",
     "Acronym": "",
     "Category": "Publicações",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
     "Resources": []
   },
   {
@@ -182,8 +235,11 @@
     "Title": "LIVE NET",
     "Image": "Live_Net.jpg",
     "Details": "Rede de Rádio via Internet",
+    "Description": "",
     "Acronym": "",
     "Category": "Encoders e Streamings",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
+    "Streamings\",": null,
     "Resources": []
   },
   {
@@ -191,8 +247,11 @@
     "Title": "AUDIO LOGGER",
     "Image": "Audio_Logger.jpg",
     "Details": "Gravador de Censura - Áudio",
+    "Description": "",
     "Acronym": "",
     "Category": "Encoders e Streamings",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
+    "Streamings\",": null,
     "Resources": []
   },
   {
@@ -200,8 +259,11 @@
     "Title": "VIDEO LOGGER",
     "Image": "Video_log.jpg",
     "Details": "Gravador de Censura - Vídeo",
+    "Description": "",
     "Acronym": "",
     "Category": "Encoders e Streamings",
+    "Youtube_URL": "https://youtu.be/34px4CqwlwQ",
+    "Streamings\",": null,
     "Resources": []
   }
 ]

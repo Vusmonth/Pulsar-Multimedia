@@ -29,7 +29,6 @@ namespace Pulsar_Site.Data
             if (product == null) throw new KeyNotFoundException("Nenhum produto encontrado com esse ID");
             return product;
         }
-
     }
 }
 
