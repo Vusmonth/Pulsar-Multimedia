@@ -18,7 +18,7 @@
     </span>
 
     <section class="details-section">
-        @if (ProductData.Resources.Length == 0)
+        @if (ProductData.Resources!.Length == 0)
         {
             <p> Em desenvolvimento...</p>
         }
@@ -34,7 +34,7 @@
                                 @item.Title
                             </h2>
                             <p>
-                                @item.Description
+                                @item.Description 
                             </p>
                         </div>
 

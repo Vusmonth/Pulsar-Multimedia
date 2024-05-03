@@ -6,7 +6,7 @@
 <PageTitle>Produtos</PageTitle>
 
 <Header />
-<main class="main-content">
+<main id="all" class="main-content">
     <div class="products-category" id="first">
         <h2>
             Para seu Estúdio
@@ -15,7 +15,6 @@
             @{
                 foreach(var product in StudioCategory){<ProductListItem Props=@product />}
             }
-           
         </ul>
     </div>
 
@@ -57,11 +56,11 @@
             Publicações
         </h2>
         <ul>
-             @{
+            @{
                 foreach(var product in PublishCategory){<ProductListItem Props=@product />}
             }
         </ul>
-    </div
+    </div>
 
     <div class="products-category">
         <h2>
